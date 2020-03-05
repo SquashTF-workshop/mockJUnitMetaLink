@@ -9,8 +9,6 @@ import java.util.concurrent.TimeUnit;
 
 public class AnimatedMenuTest {
 
-    WebDriver driver;
-    WebDriverWait wait;
     ArrayList<String> menuItem;
     @BeforeEach
     public void setUp(){
