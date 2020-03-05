@@ -33,7 +33,7 @@
         <maven.compiler.plugin>3.1</maven.compiler.plugin>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <galaxia.annotation.version>1.0.1.RC1</galaxia.annotation.version>
+        <galaxia.annotation.version>1.0.1-RELEASE</galaxia.annotation.version>
     </properties>
     
     <dependencies>
@@ -47,11 +47,11 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${project.junit.version}</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.squashtest.ta.galaxia</groupId>
             <artifactId>squash-tf-galaxia-annotations</artifactId>
